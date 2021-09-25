@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750976540648",
+    "project_id": "hanapp-fba56",
+    "storage_bucket": "hanapp-fba56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750976540648:android:334de03e1b0d9477748e5d",
+        "android_client_info": {
+          "package_name": "com.example.hanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750976540648-6cdnchmph1nt35g58gf4qg3oge4a5905.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8cQ65IxxsaHnRCu3yiyDLr_Yo9rKHzO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750976540648-6cdnchmph1nt35g58gf4qg3oge4a5905.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

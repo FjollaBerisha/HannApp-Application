@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            android:textColor="#F8F9F9"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint=" Pasword"
+            android:padding="20px"
+            android:textColor="#F8F9F9"
+            android:ems="10"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="141dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#9B59B6 "
+            android:text="Log In"
+            android:textColor="#F7F9F9"
+            android:textSize="22sp" />
+        <TextView
+            android:id="@+id/txtSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you already have an account click here"
+            android:textAlignment="center"
+
+            android:textColor="#F7F9F9"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+        />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

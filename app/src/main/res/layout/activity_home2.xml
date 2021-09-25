@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bckgr">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="What kind of food are you craving?"
+        android:textColor="#F7F9F9"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnpizza"
+        android:layout_width="216dp"
+        android:layout_height="177dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="461dp"
+       />
+
+    <Button
+        android:id="@+id/btnpasta"
+        android:layout_width="167dp"
+        android:layout_height="227dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="408dp"
+         />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="232dp"
+        android:layout_height="229dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="232dp"
+         />
+
+    <Button
+        android:id="@+id/btnmexican"
+        android:layout_width="224dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="89dp"
+        />
+
+    <Button
+        android:id="@+id/btnsushi"
+        android:layout_width="189dp"
+        android:layout_height="235dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="173dp"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="651dp"
+        android:text="Pizza"
+        android:textColor="#F7F9F9"
+        android:textSize="15dp"
+        android:textStyle="bold"
+      />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/btnsushi"
+        />
+
+
+</RelativeLayout>
