@@ -66,6 +66,7 @@ FirebaseAuth mFirebaseAuth;
                     }
                 });
             }
+
         });
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +75,8 @@ FirebaseAuth mFirebaseAuth;
                 startActivity(i);
             }
         });
+
+
 
     }
 }
