@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
 public EditText Email,Password;
-public Button Signup;
+public Button Signup,SignInn;
 public TextView SignIn;
 FirebaseAuth mFirebaseAuth;
     @Override
@@ -30,51 +30,58 @@ FirebaseAuth mFirebaseAuth;
         Password=findViewById(R.id.Password);
         Signup=findViewById(R.id.SignUp);
         SignIn=findViewById(R.id.txtSignin);
-        Signup.setOnClickListener(view -> {
-            String email=Email.getText().toString();
-            String pw=Password.getText().toString();
-            if (email.isEmpty())
-            {
-             Email.setError("Please fill in your Email!");
-             Email.requestFocus();
-            }
-            else if(pw.isEmpty())
-            {
-                Password.setError("Please fill in your Password!");
-                Password.requestFocus();
-            }
-            else if(email.isEmpty()&& pw.isEmpty())
-            {
-                Toast.makeText(MainActivity.this, "Fields Are Empty!", Toast.LENGTH_SHORT).show();
-            }
-            else if(!(email.isEmpty()&& pw.isEmpty()))
-            {
-                mFirebaseAuth.createUserWithEmailAndPassword(email,pw).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull  Task<AuthResult> task)
-                    {
-                        if (!task.isSuccessful())
-                        {
-                            Toast.makeText(MainActivity.this, "SignUp Unsuccessful!", Toast.LENGTH_SHORT).show();
+        SignInn=findViewById(R.id.SignIn);
 
-                        }
-                        else
+        Signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String email=Email.getText().toString();
+                String pw=Password.getText().toString();
+                if (email.isEmpty())
+                {
+                    Email.setError("Please fill in your Email!");
+                    Email.requestFocus();
+                }
+                else if(pw.isEmpty())
+                {
+                    Password.setError("Please fill in your Password!");
+                    Password.requestFocus();
+                }
+                else if(email.isEmpty()&& pw.isEmpty())
+                {
+                    Toast.makeText(MainActivity.this, "Fields Are Empty!", Toast.LENGTH_SHORT).show();
+                }
+                else if(!(email.isEmpty()&& pw.isEmpty()))
+                {
+                    mFirebaseAuth.createUserWithEmailAndPassword(email,pw).addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull  Task<AuthResult> task)
+                        {
+                            if (!task.isSuccessful())
+                            {
+                                Toast.makeText(MainActivity.this, "SignUp Unsuccessful!", Toast.LENGTH_SHORT).show();
+
+                            }
+                            else
                             {
                                 startActivity(new Intent(MainActivity.this,Home_Activity.class));
                             }
 
-                    }
-                });
-            }
+                        }
+                    });
+                }
 
+            }
         });
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,Log_In.class);
+                Intent i=new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(i);
             }
         });
+
+
 
 
 
