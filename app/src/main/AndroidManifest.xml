@@ -8,16 +8,17 @@
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
+        android:label="HanApp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:label="HanApp"
         android:theme="@style/Theme.HanApp">
-        <activity android:name=".MainActivity3"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".Fast_Food_Places" />
         <activity android:name=".map1" />
         <activity android:name=".Home_Activity" />
         <activity android:name=".MainActivity2" />
-        <activity android:name=".Fast_Food_Places">
+        <activity android:name=".MainActivity4">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

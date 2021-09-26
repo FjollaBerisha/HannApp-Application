@@ -11,6 +11,42 @@
 
 
     <TextView
+        android:id="@+id/textView8"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:text="FAST FOOD"
+        android:textColor="#F7F9F9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:text="SUSHI"
+        android:textColor="#F7F9F9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,8 +90,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/fastfood"
-        android:layout_width="246dp"
-        android:layout_height="wrap_content"
+        android:layout_width="242dp"
+        android:layout_height="214dp"
         android:layout_alignParentStart="true"
 
         android:layout_alignParentTop="true"
@@ -71,8 +107,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
-        android:layout_width="264dp"
-        android:layout_height="wrap_content"
+        android:layout_width="247dp"
+        android:layout_height="209dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -107,39 +143,22 @@
         app:layout_constraintVertical_bias="0.969" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:text="Sushi"
-        android:textColor="#F7F9F9"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.258"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
-
-    <TextView
         android:id="@+id/textView6"
         android:layout_width="131dp"
         android:layout_height="42dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
 
-        android:text="Mexican Food"
+        android:text="MEXICAN"
         android:textColor="#F7F9F9"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.786" />
+        app:layout_constraintVertical_bias="0.795" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

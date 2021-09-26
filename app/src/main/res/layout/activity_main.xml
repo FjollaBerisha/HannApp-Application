@@ -15,19 +15,17 @@
         android:orientation="vertical">
 
 
-
-
         <EditText
             android:id="@+id/EmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:hint="Email"
-
-            android:textColor="#F8F9F9"
             android:ems="10"
+
+            android:hint="Email"
             android:inputType="textEmailAddress"
+            android:textColor="#F8F9F9"
 
             />
 
@@ -36,49 +34,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:hint=" Pasword"
-            android:padding="20px"
-            android:textColor="#F8F9F9"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:hint=" Pasword"
+            android:inputType="textPassword"
+            android:padding="20px"
+            android:textColor="#F8F9F9" />
+
         <Button
             android:id="@+id/SignUp"
             android:layout_width="141dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
-            android:background="#9B59B6 "
+
+            android:background="#D7DBDD"
             android:text="Sign Up"
-            android:textColor="#F7F9F9"
             android:textSize="22sp" />
+
         <TextView
             android:id="@+id/txtSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="If you already have an account click here"
-            android:textAlignment="center"
-
-            android:textColor="#F7F9F9"
-            android:textSize="20dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
 
-        />
-        <Button
-            android:id="@+id/SignIn"
-            android:layout_width="141dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            android:background="#9B59B6 "
-            android:text="Sign In"
+            android:text="If you already have an account click here"
+            android:textAlignment="center"
             android:textColor="#F7F9F9"
-            android:textSize="22sp" />
+            android:textSize="20dp"
+
+            />
 
 
     </LinearLayout>
-
-
-
-
 
 
 </RelativeLayout>

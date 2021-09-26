@@ -30,7 +30,7 @@ FirebaseAuth mFirebaseAuth;
         Password=findViewById(R.id.Password);
         Signup=findViewById(R.id.SignUp);
         SignIn=findViewById(R.id.txtSignin);
-        SignInn=findViewById(R.id.SignIn);
+
 
         Signup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,13 +70,17 @@ FirebaseAuth mFirebaseAuth;
                         }
                     });
                 }
+                else
+                    {
+                        Toast.makeText(MainActivity.this, "Error Occurred!", Toast.LENGTH_SHORT).show();
+                    }
 
             }
         });
         SignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,MainActivity2.class);
+                Intent i=new Intent(MainActivity.this,MainActivity4.class);
                 startActivity(i);
             }
         });

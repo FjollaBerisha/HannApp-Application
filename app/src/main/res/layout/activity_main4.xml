@@ -41,22 +41,23 @@
             android:textColor="#F8F9F9" />
 
         <Button
-            android:id="@+id/SignIn"
+            android:id="@+id/btnSignin"
             android:layout_width="141dp"
             android:layout_height="50dp"
             android:layout_marginTop="20dp"
+
             android:background="#D7DBDD"
             android:text="Sign In"
             android:textSize="22sp" />
 
         <TextView
-            android:id="@+id/txtSignin"
+            android:id="@+id/txtSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
 
-            android:text="If you already have an account click here"
+            android:text="If you don't have an account click here"
             android:textAlignment="center"
             android:textColor="#F7F9F9"
             android:textSize="20dp"
