@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.net.URI;
+
 public class Fast_Food_Places extends AppCompatActivity {
      ImageView map;
     @Override
@@ -17,19 +19,23 @@ public class Fast_Food_Places extends AppCompatActivity {
 
         map=findViewById(R.id.location);
 
-        map.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent n=new Intent(Fast_Food_Places.this,MainActivity3.class);
-                startActivity(n);
-            }
-        });
+       map.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
 
+              goToUrl("https://vymaps.com/XK/Burger-King-Kosova-102174294751246/");
+           }
+       });
 
-
+    }
+    private void goToUrl(String s)
+    {
+        Uri uri=Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
 
-    }
+
+}
 
 
