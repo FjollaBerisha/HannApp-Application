@@ -16,16 +16,19 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
+
 public EditText Email,Password;
-public Button Signup,SignInn;
+public Button Signup;
 public TextView SignIn;
 FirebaseAuth mFirebaseAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         mFirebaseAuth=FirebaseAuth.getInstance();
+
         Email=findViewById(R.id.EmailAddress);
         Password=findViewById(R.id.Password);
         Signup=findViewById(R.id.SignUp);

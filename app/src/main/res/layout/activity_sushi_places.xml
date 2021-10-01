@@ -44,11 +44,11 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="243dp"
-        android:layout_height="24dp"
-        android:text="KENTUCKY FRIED CHICKEN"
+        android:layout_width="261dp"
+        android:layout_height="33dp"
+        android:text="Tokyo n'Prishtine"
         android:textColor="#C9C7C6"
-        android:textSize="18sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,14 +56,14 @@
         app:layout_constraintStart_toEndOf="@+id/MENU1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.326" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="244dp"
         android:layout_height="32dp"
         android:layout_marginTop="226dp"
-        android:text="PROPER PIZZA"
+        android:text="BONZAI"
         android:textColor="#C9C7C6  "
         android:textSize="30sp"
         android:textStyle="bold"
@@ -112,20 +112,20 @@
         app:layout_constraintVertical_bias="0.954" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/fastfood"
+        android:id="@+id/SuchiCo"
         android:layout_width="167dp"
         android:layout_height="172dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/download"
+        android:src="@drawable/sushi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.05" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/proper"
@@ -137,13 +137,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="57dp"
-        android:src="@drawable/properi"
+        android:src="@drawable/bonsai"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/kfc"
         app:layout_constraintVertical_bias="0.528" />
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/kfc"
@@ -154,29 +155,29 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/kfc"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/tokya"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fastfood"
         app:layout_constraintVertical_bias="0.192" />
 
-
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="213dp"
-        android:layout_height="31dp"
-        android:text="BURGER KING"
+        android:layout_width="217dp"
+        android:layout_height="40dp"
+        android:text="Sushi Kosova"
         android:textColor="#C9C7C6  "
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/location"
@@ -222,16 +223,16 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="38dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="147dp"
+        android:layout_marginEnd="96dp"
         android:layout_marginBottom="43dp"
         android:text="+38344888777"
         android:textColor="#F7F9F9"
         app:layout_constraintBottom_toTopOf="@+id/MENU1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toEndOf="@+id/fastfood"
+
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <TextView
         android:id="@+id/textView10"
@@ -239,15 +240,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="9dp"
-        android:layout_marginEnd="137dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="15dp"
+        android:text="sushikosova@gmail.com"
         android:textColor="#F7F9F9"
         android:textStyle="bold"
-        android:text="burgerkingkosova@gmail.com"
         app:layout_constraintBottom_toTopOf="@+id/MENU1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
-        app:layout_constraintStart_toEndOf="@+id/fastfood"
+
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="1.0" />
 
@@ -264,10 +265,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/MENU"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toEndOf="@+id/kfc"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView13"
@@ -277,7 +278,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="152dp"
         android:layout_marginBottom="32dp"
-        android:text="kfckosova@gmail.com"
+        android:text="tokyonprishtine@gmail.com"
         android:textColor="#F7F9F9"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/MENU"
@@ -311,7 +312,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="124dp"
         android:layout_marginBottom="45dp"
-        android:text="propperpizza@gmail.com"
+        android:text="Bonzai@gmail.com"
         android:textColor="#F7F9F9"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/MENU2"
